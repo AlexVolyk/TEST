@@ -68,10 +68,10 @@
     background:#aea59c;
   }
 
-.container{
-    /* padding-top: 100px !important;
-    padding-bottom: 300px !important; */
-}
+/* .container{
+    padding-top: 100px !important;
+    padding-bottom: 300px !important;
+} */
 .container > div:last-child{
     margin: 0 auto;
     margin-top: 10px;
