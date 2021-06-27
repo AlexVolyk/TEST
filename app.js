@@ -67,7 +67,6 @@ let title = document.querySelectorAll('.btn-check:active+.btn-secondary, .btn-ch
 
 
         title[i].innerHTML = '<b>Title:</b> ' + '<i>' + json[i].title + '</i>'
-
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
         let p3 = document.createElement('p');
