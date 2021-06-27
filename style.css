@@ -109,7 +109,7 @@
 }
 
 .wtf-is-this{
-    background: url('mike48-mmont-miyazakiworldprint-detail.jpg') no-repeat center center;
+    background: url('mike48-mmont-miyazakiworldprint-detail.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,8 +120,8 @@
     z-index: 2;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
     justify-content: center;
 }
 
