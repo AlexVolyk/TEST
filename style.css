@@ -107,7 +107,15 @@
     display: block;
     max-width: 440px;
 }
-
+@media(max-width: 400px){
+    .wtf-is-this {
+        background: url(mike48-mmont-miyazakiworldprint-detail.jpg) no-repeat center top fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 300%;
+    }
+}
 .wtf-is-this{
     background: url('mike48-mmont-miyazakiworldprint-detail.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
