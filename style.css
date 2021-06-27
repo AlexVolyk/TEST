@@ -109,7 +109,7 @@
 }
 
 .wtf-is-this{
-    background: url('mike48-mmont-miyazakiworldprint-detail.jpg') no-repeat;
+    background: url('mike48-mmont-miyazakiworldprint-detail.jpg') no-repeat center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
