@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@media(max-width: 1400px){
+
+}
+@media(max-width: 760px){
+    .open > .dropdown-menu{
+        position: initial;
+    }
+}
+@media(max-width: 740px){
+    .dropdown > a{
+        width: 320px !important;
+    }
+    .dropdown-menu{
+        width: 320px !important;
+    }
+}
+@media(max-width: 460px){
+    
+    .logo{
+        max-width: 240px !important;
+    }
+    .dropdown > a{
+        width: 260px !important;
+    }
+    .dropdown-menu{
+        width: 260px !important;
+    }
+    #dropdownMenuLink > i{
+        font-size: 12px;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #e2e2de;
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#aea59c; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#aea59c;
+  }
+
+.container{
+    padding-top: 100px !important;
+    padding-bottom: 300px !important;
+}
+.container > div:last-child{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.dropdown .dropdown-menu:last-child{
+    position: initial !important;
+    float: none  !important;
+}
+
+.dropdown-menu:last-child{
+    float: none;
+}
+
+.btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+    color: black;
+}
+.btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+    background-color: rgb(86, 94, 100, 0.6);
+}
+
+
+.header, footer{
+    background-color: #bdbfb1;
+}
+.btn-color{
+    color: red;
+}
+.header{
+    box-shadow: 0px 9px 8px 6px rgba(34, 60, 80, 0.25);
+}
+
+.logo{
+    display: block;
+    max-width: 440px;
+}
+
+.wtf-is-this{
+    background: url('mike48-mmont-miyazakiworldprint-detail.jpg') no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-color: #e2e2de; */
+}
+
+.container{
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+
+footer > p{
+    margin: 0;
+    padding: 20px 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.open >.dropdown-menu {
+    padding: 10px;
+}
+
+.dropdown{
+margin: 10px;
+}
+
+.dropdown-menu > p:nth-child(3){
+    font-family: 'Benne', serif;
+    font-size: 16px;
+}
+
+.dropdown > a{
+    width: 550px;
+}
+.dropdown-menu{
+    width: 550px;
+}
