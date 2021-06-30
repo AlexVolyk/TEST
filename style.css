@@ -3,70 +3,29 @@
     margin: 0;
     padding: 0;
 }
-/* @media(max-width: 1400px){
 
-}
-@media(max-width: 760px){
-    .open > .dropdown-menu{
-        position: initial;
-    }
-}
-@media(max-width: 740px){
-    .dropdown > a{
-        width: 320px !important;
-    }
-    .dropdown-menu{
-        width: 320px !important;
-    }
-}
-@media(max-width: 460px){
-    
-    .logo{
-        max-width: 240px !important;
-    }
-    .dropdown > a{
-        width: 260px !important;
-    }
-    .dropdown-menu{
-        width: 260px !important;
-    }
-    #dropdownMenuLink > i{
-        font-size: 12px;
-    }
-}
-@media(max-width: 310px){
-    .dropdown > a{
-        width: 220px !important;
-    }
-    .dropdown-menu{
-        width: 220px !important;
-    }
-    #dropdownMenuLink > i{
-        font-size: 12px;
-    }
-} */
 
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
+}
+
   /* Track */
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background-color: #e2e2de;
     border-radius: 10px;
-  }
-   
+}
+
   /* Handle */
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background:#aea59c; 
     border-radius: 10px;
-  }
-  
+}
+
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background:#aea59c;
-  }
+}
 
 /* .container{
     padding-top: 100px !important;
@@ -100,8 +59,12 @@
     color: red;
 }
 .header{
+    background-image: url('ping.com.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
     position: sticky;
-    box-shadow: 0px 9px 8px 6px rgba(34, 60, 80, 0.25);
+    box-shadow: 0px 9px 8px 6px rgb(34 60 80 / 25%);
 }
 
 .logo{
@@ -113,6 +76,8 @@ footer{
     background-repeat: no-repeat;
     background-position: right;
     background-size: 180px;
+    position: relative;
+    /* box-shadow: -1px 11px 8px 0px rgba(34, 60, 80, 0.2) inset; */
 }
 
 .wtf-is-this{
@@ -120,7 +85,7 @@ footer{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover !important; 
+    background-size: cover !important;  /*contain /   background-color: #bdbfb1;*/
 }
 .dropdown-menu{
     animation: growDown 300ms ease-in-out forwards;
@@ -176,4 +141,14 @@ margin: 10px;
 .dropdown-menu{
     width: 550px;
     transition: 3s;
+}
+
+.footer-img{
+    background-image: url(aa.png);
+    background-size: contain;
+    width: 169px;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 54px;
+    left: 20px;
 }

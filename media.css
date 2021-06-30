@@ -1,4 +1,8 @@
-
+@media(max-width: 1115px) {
+    .header{
+        background-image: none;
+    }
+}
 @media(max-width: 760px){
     .open > .dropdown-menu{
         position: initial;
