@@ -1,9 +1,9 @@
-
+/* ! зробити hover на блоки */
 *{
     margin: 0;
     padding: 0;
 }
-@media(max-width: 1400px){
+/* @media(max-width: 1400px){
 
 }
 @media(max-width: 760px){
@@ -44,7 +44,7 @@
     #dropdownMenuLink > i{
         font-size: 12px;
     }
-}
+} */
 
 /* width */
 ::-webkit-scrollbar {
@@ -72,10 +72,10 @@
     padding-top: 100px !important;
     padding-bottom: 300px !important;
 } */
-.container > div:last-child{
+/* .container > div:last-child{
     margin: 0 auto;
     margin-top: 10px;
-}
+} */
 .dropdown .dropdown-menu:last-child{
     position: initial !important;
     float: none  !important;
@@ -108,15 +108,38 @@
     display: block;
     max-width: 440px;
 }
+footer{
+    background-image:url('pngegg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
 
 .wtf-is-this{
     background: url('mike48-mmont-miyazakiworldprint-detail.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover !important; 
+}
+.dropdown-menu{
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
 }
 
+
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
 .container{
     max-width: 700px !important;
     display: flex;
@@ -152,4 +175,5 @@ margin: 10px;
 }
 .dropdown-menu{
     width: 550px;
+    transition: 3s;
 }
