@@ -77,7 +77,7 @@ footer{
     background-position: right;
     background-size: 180px;
     position: relative;
-    /* box-shadow: -1px 11px 8px 0px rgba(34, 60, 80, 0.2) inset; */
+    box-shadow: -1px 11px 8px 0px rgba(34, 60, 80, 0.2) inset;
 }
 
 .wtf-is-this{
@@ -85,7 +85,8 @@ footer{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover !important;  /*contain /   background-color: #bdbfb1;*/
+    background-size: contain !important;  /*contain /   background-color: #bdbfb1;*/
+    background-color: #bdbfb1;
 }
 .dropdown-menu{
     animation: growDown 300ms ease-in-out forwards;
