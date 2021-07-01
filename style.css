@@ -1,4 +1,8 @@
-/* ! зробити hover на блоки */
+/* ! зробити hover на блоки 
+! й ше деякі речі чекнуть по файлах 
+! апдейтнуть вміст й може шрифти в DROPMENU там де API контент
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -51,15 +55,22 @@
     background-color: rgb(86, 94, 100, 0.6);
 }
 
+.dropdown{
+    transition: 1s;
+    transition-property: background-color;
+}
+.dropdown:hover{
+    transition: 1s;
+    transition-property: background-color;
+    background-color: rgb(86, 94, 100, 0.9);
+}
 
 .header, footer{
     background-color: #bdbfb1;
 }
-.btn-color{
-    color: red;
-}
+
 .header{
-    background-image: url('ping.com.png');
+    /* background-image: url('ping.com.png'); */
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -77,7 +88,8 @@ footer{
     background-position: right;
     background-size: 180px;
     position: relative;
-    box-shadow: -1px 11px 8px 0px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: -1px -13px 8px 0px rgba(34, 60, 80, 0.3);
+
 }
 
 .wtf-is-this{
@@ -85,8 +97,7 @@ footer{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: contain !important;  /*contain /   background-color: #bdbfb1;*/
-    background-color: #bdbfb1;
+    background-size: cover !important;  /*contain /   background-color: #bdbfb1;*/
 }
 .dropdown-menu{
     animation: growDown 300ms ease-in-out forwards;
@@ -142,6 +153,14 @@ margin: 10px;
 .dropdown-menu{
     width: 550px;
     transition: 3s;
+}
+.dropdown-menu{
+    background-image: url(pngwin.png);
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: 216px;
+    background-repeat: no-repeat;
+    /* ! some baggs fixed */
 }
 
 .footer-img{
